@@ -150,7 +150,7 @@ const PlansData = [
   {
 
     heading: 'Net Basic',
-      imgSrc: '/images/articles/64d3a7f6d27315d1c50fb3f0_ft5-removebg-preview.PNG',
+    imgSrc: '/images/articles/64d3a7f6d27315d1c50fb3f0_ft5-removebg-preview.png',
     voyo: '300Mbps',
     przina: ' Download do 300 Mbps / Upload do 150 Mbps  ',
     price: {
@@ -168,7 +168,7 @@ const PlansData = [
   {
     heading: 'Net Premium',
     
-    imgSrc: '/images/articles/64d3a7f6d27315d1c50fb3f0_ft5-removebg-preview.PNG',
+    imgSrc: '/images/articles/64d3a7f6d27315d1c50fb3f0_ft5-removebg-preview.png',
     voyo: '500Mbps',
     przina: ' Download do 500 Mbps / Upload do 250 Mbps  ',
 
