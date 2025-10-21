@@ -4,7 +4,7 @@ const Logo: React.FC = () => {
   return (
     <Link href='/' className='text-3xl font-semibold text-[#0f3d7d]'>Z 
     <Image
-                                src={'/images/Logo/iso-p.png'}
+                                src={'/images/Logo/pngwing.com.png'}
                                 alt='greenbg'
                                 width={30}
                                 height={20}
