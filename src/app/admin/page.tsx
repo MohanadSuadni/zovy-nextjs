@@ -1,0 +1,20 @@
+"use client";
+
+import { Admin, Resource } from 'react-admin';
+import jsonServerProvider from 'ra-data-json-server';
+import { PlanList, PlanEdit, PlanCreate } from '@/app/components/admin/PlanResources';
+
+const dataProvider = jsonServerProvider('http://localhost:3002');
+
+export default function AdminPage() {
+  return (
+    <Admin dataProvider={dataProvider}>
+      <Resource
+        name="plans"
+        list={PlanList}
+        edit={PlanEdit}
+        create={PlanCreate}
+      />
+    </Admin>
+  );
+}

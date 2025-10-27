@@ -1,0 +1,58 @@
+{
+  "plans": [
+    {
+      "id": 1,
+      "heading": "Net TV Basic",
+      "imgSrc": "/images/articles/13119.png",
+      "voyo": "VOYO bez nadoknade tokom promotivnog perioda od 4.11.2024. do 31.10.2026.",
+      "przina": "Download do 300 Mbps / Upload do 150 Mbps",
+      "user": "Digitalna televizija",
+      "price": 4.099,
+      "features": {
+        "Najgledaniji": "informativni, zabavni i sportski kanali",
+        "Premotavanje": "do 7 dana unazad",
+        "Gledaj": "na svim uređajima",
+        "Prvi": "Yettel TV Box za 1 RSD"
+      }
+    },
+    {
+      "id": 2,
+      "heading": "Net TV Premium",
+      "imgSrc": "/images/articles/13851.png",
+      "voyo": "VOYO i još 1 aplikacija (Deezer, SkyShowtime ili HBO Max i TV kanali) bez nadoknade",
+      "przina": "Download do 500 Mbps / Upload do 250 Mbps",
+      "user": "Digitalna televizija",
+      "price": 4.999,
+      "features": {
+        "Najgledaniji": "informativni, zabavni i sportski kanali",
+        "Premotavanje": "do 7 dana unazad",
+        "Gledaj": "na svim uređajima",
+        "Prvi": "2 Yettel TV Box za 1 RSD*"
+      }
+    },
+    {
+      "id": 3,
+      "heading": "Net Basic",
+      "imgSrc": "/images/articles/64d3a7f6d27315d1c50fb3f0_ft5-removebg-preview.png",
+      "voyo": "300Mbps",
+      "przina": "Download do 300 Mbps / Upload do 150 Mbps",
+      "user": "Internet",
+      "price": 3.199,
+      "features": {
+        "Optički": "internet"
+      }
+    },
+    {
+      "id": 4,
+      "heading": "Net Premium",
+      "imgSrc": "/images/articles/64d3a7f6d27315d1c50fb3f0_ft5-removebg-preview.png",
+      "voyo": "500Mbps",
+      "przina": "Download do 500 Mbps / Upload do 250 Mbps",
+      "user": "Internet",
+      "price": 3.999,
+      "features": {
+        "Optički": "internet"
+      }
+    }
+  ]
+}

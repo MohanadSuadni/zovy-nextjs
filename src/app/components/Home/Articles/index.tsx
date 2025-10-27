@@ -75,7 +75,7 @@ const Articles = () => {
             ? Array.from({ length: 3 }).map((_, i) => <ArticlesSkeleton key={i} />)
             : articles.map((item, i) => (
                 <div key={i}>
-                  <div className='bg-white m-3 px-3 pt-3 pb-12 my-10 shadow-lg rounded-4xl relative'>
+                  <div className='bg-white m-3 px-3 pt-3 pb-12 my-10 shadow-lg rounded-4xl relative' >
                     <Image
                       src={item.imgSrc}
                       alt={item.heading}

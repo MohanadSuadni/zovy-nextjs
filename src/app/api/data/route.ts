@@ -10,7 +10,6 @@ import { footerlinks } from '@/app/types/footerlinks'
 
 // header nav-links data
 const headerData: HeaderItem[] = [
-  { label: 'O nama', href: 'https://zovy.rs/' },
   { label: 'Net TV', href: '#services' },
   { label: 'Smart TV', href: '#tv' },
   { label: 'FAQ', href: '#FAQ' },
@@ -283,9 +282,9 @@ const ArticlesData: articles[] = [
     name: 'Tehničke specifikacije',
     date: '2+3 godine garancije',
     imgSrc: '/images/articles/13765.png',
-    cena:'1.966 RSD',
-    nameText: 'Samsung U7022F 55" Crystal 4K: Tizen OS, HDR10+, HDMI 2.0, WiFi i Smart TV opcije.',
-    dateText: 'Garancija 2+3 godine: uključen servis i podrška.'
+    cena:'1.699 RSD',
+    nameText: 'Tehničke specifikacije Rezolucija	4K (3.840 x 2.160) Operativni sistem	Tizen Smart TV (HDMI	3) (USB	1) (Pokretač slike	Crystal Procesor 4K) (Izlaz za zvuk (RMS)	20W) (Tip zvučnika	2CH) (Veličina ekrana	55") (Dimenzije bez postolja	1224.6 x 707.8 x 76.6 mm) (Dimenzije sa postoljem	1224.6 x 759.1 x 199 mm)(Težina bez postolja	9,6 kg) (Težina sa postoljem	9,9 kg) Detaljnije informacije o Samsung modelima dostupne su na samsung.com',
+    dateText: 'Promocija traje do 31.12.2025. godine i odnosi se na OLED, QLED i UHD  modele. Da ostvariš pravo na dodatnu zaštitu potrebno je da se registruješ na www.extracare-promotion.com/rs. Realizaciju pogodnosti dodatna zaštita sprovodi pripredno društvo PARTUM d.o.o.  Samsung 2+3 godine zaštite - uslovi korišćenja. '
   },
   {
     time: '5 min',
@@ -296,7 +295,7 @@ const ArticlesData: articles[] = [
     imgSrc: '/images/articles/13765.png',
     cena:'2.299 RSD',
     nameText: 'Samsung U7022F 65": Veliki ekran 65", 4K Crystal UHD, Tizen Smart TV.',
-    dateText: 'Garancija traje 2+3 godine sa uključenom tehničkom podrškom.'
+    dateText: 'Promocija traje do 31.12.2025. godine i odnosi se na OLED, QLED i UHD  modele. Da ostvariš pravo na dodatnu zaštitu potrebno je da se registruješ na www.extracare-promotion.com/rs. Realizaciju pogodnosti dodatna zaštita sprovodi pripredno društvo PARTUM d.o.o.  Samsung 2+3 godine zaštite - uslovi korišćenja. '
   },
   {
     time: '5 min',
