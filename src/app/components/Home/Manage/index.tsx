@@ -12,7 +12,7 @@ export default function Manage() {
   useEffect(() => {
     const fetchPlans = async () => {
       try {
-        const res = await fetch("http://localhost:3002/plans")
+const res = await fetch("https://my-json-server.typicode.com/MohanadSuadni/zovy-database/plans")
         const data = await res.json()
         setPlans(data)
       } catch (error) {
