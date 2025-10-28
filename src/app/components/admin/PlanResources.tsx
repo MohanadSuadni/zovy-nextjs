@@ -1,6 +1,17 @@
-import { List, Datagrid, TextField, Edit, SimpleForm, TextInput, NumberInput, Create } from 'react-admin';
+"use client"; // 🔹 React-admin mora biti client-side
 
-// LISTA PLANOVA
+import {
+  List,
+  Datagrid,
+  TextField,
+  Edit,
+  SimpleForm,
+  TextInput,
+  NumberInput,
+  Create,
+} from "react-admin";
+
+// 🔹 LISTA PLANOVA
 export const PlanList = () => (
   <List>
     <Datagrid rowClick="edit">
@@ -14,7 +25,7 @@ export const PlanList = () => (
   </List>
 );
 
-// EDIT PLANOVA
+// 🔹 EDIT PLANOVA
 export const PlanEdit = () => (
   <Edit>
     <SimpleForm>
@@ -32,7 +43,7 @@ export const PlanEdit = () => (
   </Edit>
 );
 
-// KREIRANJE NOVOG PLANA
+// 🔹 KREIRANJE NOVOG PLANA
 export const PlanCreate = () => (
   <Create>
     <SimpleForm>

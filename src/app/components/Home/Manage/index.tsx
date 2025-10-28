@@ -8,11 +8,14 @@ export default function Manage() {
   const [plans, setPlans] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
 
-  // 🔹 Učitaj sve planove iz db.json
+  // 🔹 API URL za online JSON server
+  const API_URL = "https://my-json-server.typicode.com/MohanadSuadni/zovy-database"
+
+  // 🔹 Učitaj sve planove sa online servera
   useEffect(() => {
     const fetchPlans = async () => {
       try {
-const res = await fetch("https://my-json-server.typicode.com/MohanadSuadni/zovy-database/plans")
+        const res = await fetch(`${API_URL}/plans`)
         const data = await res.json()
         setPlans(data)
       } catch (error) {
@@ -117,11 +120,11 @@ const res = await fetch("https://my-json-server.typicode.com/MohanadSuadni/zovy-
 
                     {/* Feature list */}
                     {items.features &&
-                 Object.entries(items.features).map(([key, value], index) => (
-  <p key={index}>
-    {key}: {value as string}
-  </p>
-))}
+                      Object.entries(items.features).map(([key, value], index) => (
+                        <p key={index}>
+                          {key}: {value as string}
+                        </p>
+                      ))}
 
                     {items.imgSrc && (
                       <Image

@@ -1,10 +1,13 @@
-"use client";
+"use client"; // 🔹 mora biti prvi red
 
-import { Admin, Resource } from 'react-admin';
-import jsonServerProvider from 'ra-data-json-server';
-import { PlanList, PlanEdit, PlanCreate } from '@/app/components/admin/PlanResources';
+import { Admin, Resource } from "react-admin";
+import jsonServerProvider from "ra-data-json-server";
+import { PlanList, PlanEdit, PlanCreate } from "@/app/components/admin/PlanResources";
 
-const dataProvider = jsonServerProvider('http://localhost:3002');
+// 🔹 Online JSON server URL
+const dataProvider = jsonServerProvider(
+  "https://my-json-server.typicode.com/MohanadSuadni/zovy-database"
+);
 
 export default function AdminPage() {
   return (
