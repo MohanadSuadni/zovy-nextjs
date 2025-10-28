@@ -1,9 +1,10 @@
-"use client"; // 🔹 React-admin mora biti client-side
+"use client";
 
 import {
   List,
   Datagrid,
   TextField,
+  NumberField,
   Edit,
   SimpleForm,
   TextInput,
@@ -11,28 +12,28 @@ import {
   Create,
 } from "react-admin";
 
-// 🔹 LISTA PLANOVA
+// ✅ LISTA PLANOVA
 export const PlanList = () => (
   <List>
     <Datagrid rowClick="edit">
       <TextField source="id" />
       <TextField source="heading" label="Naziv paketa" />
-      <TextField source="price" label="Cena (RSD)" />
+      <NumberField source="price" label="Cena (RSD)" />
       <TextField source="voyo" label="Voyo" />
-      <TextField source="przina" label="Opis paketa" />
+      <TextField source="przina" label="Brzina" />
       <TextField source="user" label="Korisnici" />
     </Datagrid>
   </List>
 );
 
-// 🔹 EDIT PLANOVA
+// ✅ IZMENI PLAN
 export const PlanEdit = () => (
   <Edit>
     <SimpleForm>
       <TextInput source="heading" label="Naziv paketa" />
       <NumberInput source="price" label="Cena (RSD)" />
       <TextInput source="voyo" label="Voyo" />
-      <TextInput source="przina" label="Opis paketa" />
+      <TextInput source="przina" label="Brzina" />
       <TextInput source="user" label="Korisnici" />
       <TextInput source="imgSrc" label="URL slike" />
       <TextInput source="features.Najgledaniji" label="Najgledaniji" />
@@ -43,14 +44,14 @@ export const PlanEdit = () => (
   </Edit>
 );
 
-// 🔹 KREIRANJE NOVOG PLANA
+// ✅ DODAJ NOVI PLAN
 export const PlanCreate = () => (
   <Create>
     <SimpleForm>
       <TextInput source="heading" label="Naziv paketa" />
       <NumberInput source="price" label="Cena (RSD)" />
       <TextInput source="voyo" label="Voyo" />
-      <TextInput source="przina" label="Opis paketa" />
+      <TextInput source="przina" label="Brzina" />
       <TextInput source="user" label="Korisnici" />
       <TextInput source="imgSrc" label="URL slike" />
       <TextInput source="features.Najgledaniji" label="Najgledaniji" />

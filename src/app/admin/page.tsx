@@ -1,20 +1,10 @@
 "use client";
 
-import { Admin, Resource } from "react-admin";
-import jsonServerProvider from "ra-data-json-server";
-import { PlanList, PlanEdit, PlanCreate } from "@/app/components/admin/PlanResources";
+import dynamic from "next/dynamic";
 
-const dataProvider = jsonServerProvider("https://my-json-server.typicode.com/MohanadSuadni/zovy-database");
+// Dinamički uvoz Admin panela
+const AdminPanel = dynamic(() => import("./AdminPanel"), { ssr: false });
 
-export default function AdminPage() {
-  return (
-    <Admin dataProvider={dataProvider}>
-      <Resource
-        name="plans"
-        list={PlanList}
-        edit={PlanEdit}
-        create={PlanCreate}
-      />
-    </Admin>
-  );
+export default function Page() {
+  return <AdminPanel />;
 }
