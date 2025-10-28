@@ -1,4 +1,5 @@
 "use client"; // 🔹 mora biti prvi red
+export const dynamic = "force-dynamic"; // 🔹 dodaj ovo da Next.js ne prerenderuje ovu stranicu
 
 import { Admin, Resource } from "react-admin";
 import jsonServerProvider from "ra-data-json-server";
