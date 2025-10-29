@@ -9,8 +9,7 @@ export default function Manage() {
   const [loading, setLoading] = useState(true)
 
   // 🔹 API URL za online JSON server
-  const API_URL = "https://my-json-server.typicode.com/MohanadSuadni/zovy-database"
-
+const API_URL = "http://localhost:3002";
   // 🔹 Učitaj sve planove sa online servera
   useEffect(() => {
     const fetchPlans = async () => {
